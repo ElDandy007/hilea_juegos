@@ -160,17 +160,18 @@ footer {
 }
 
 .tarjeta {
-  padding-right: 200px;
-}
-
-.tarjeta {
-  padding-left: 200px;
-}
-
-.menu {
-  padding-left: 200px;
-}
-
-.menu {
-  padding-right: 200px;
-}
+    padding-right: 170px;
+  }
+  
+  .tarjeta {
+    padding-left: 170px;
+  }
+  
+  .menu {
+    padding-left: 200px;
+  }
+  
+  .menu {
+    padding-right: 200px;
+  }
+  
