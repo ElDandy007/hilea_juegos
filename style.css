@@ -37,19 +37,6 @@ a:hover {
 
 }
 
-.sidebar {
-  color:orange;
-}
-
-.sdb-right {
-  border-left: thin solid orange;
-}
-
-.sdb-left {
-  border-right: thin solid orange;
-}
-
-
 /* Styles for the banner image */
 .banner {
   /* Photo by mnm.all on Unsplash */
