@@ -15,7 +15,7 @@ html {
 }
 
 a {
-  background-color: goldenrod;
+  background-color: #8ed3f3;
   text-decoration: none;
   color: white;
   border-radius: .25rem;
@@ -26,15 +26,6 @@ a {
 
 a:hover {
   opacity: .6;
-}
-
-.container {
-  display: grid;
-  column-count:3;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-template-columns:  1fr 4fr 1fr;
-
 }
 
 /* Styles for the banner image */
@@ -80,7 +71,7 @@ a:hover {
 }
 
 .tarjeta > ul > li {
-  border: 1px solid #E2E2E2;
+  border: 1px solid #5a3ff7;
   border-radius: .5rem;
   list-style-type: none;
 }
@@ -114,7 +105,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1.5;
   padding: 1rem .75rem;
-  color: #666666;
+  color: #000000;
 }
 
 .tarjeta > ul > li > a {
@@ -135,19 +126,19 @@ footer {
 #menu {
 
   list-style: none;
-  border: thin solid #00b4f7;
+  border: thin solid #ffffff;
   padding: 0;
-  background-color: #0082d6;
+  background-color:  #ffffff;
   padding: 5px;
 }
 
 #menu > li {
-    border: thin solid #0090eb;
+    border: thin solid  #dde9ee;
     display: inline-grid;
 }
 
 #menu > li:first-child  {
-  background-color: #009df3;
+  background-color:  #dde9ee;
 
 }
 
@@ -159,24 +150,27 @@ footer {
 }
 
 #menu > li:hover {
-  background-color: #005891;
+  background-color:  #dde9ee;;
 }
 
 @media only screen and (max-width: 768px) {
   #menu > li {
       width: 100%;
   }
+}
 
-  .container {
-    display: inline;
-  }
+.tarjeta {
+  padding-right: 170px;
+}
 
-  .tarjeta {
-    padding: 1rem;
-  }
+.tarjeta {
+  padding-left: 170px;
+}
 
-  .tarjeta > ul {
-    padding: 0;
-  }
+.menu {
+  padding-left: 200px;
+}
 
+.menu {
+  padding-right: 200px;
 }
